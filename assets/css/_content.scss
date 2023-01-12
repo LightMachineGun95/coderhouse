@@ -1,0 +1,30 @@
+@use '_commons' as c;
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Silkscreen&display=swap');
+
+.contenido{
+    background: linear-gradient(map-get(c.$colores,"gradient_1"), map-get(c.$colores,"gradient_2"));
+    font-size: 24px;
+    padding: 50px;
+}
+.navbarbg{
+    background-color: map-get(c.$colores,"color_background");
+    font-family: map-get(c.$tipografias, "tipografia_principal");
+}
+.bgcontent{
+    font-family: map-get(c.$tipografias, "tipografia_principal");
+}
+
+.text-center{
+    font-family: map-get(c.$tipografias, "tipografia_principal");
+}
+.mb-3{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.table{
+    text-align: center;
+}
+.table h2{
+    text-align: center;
+}
