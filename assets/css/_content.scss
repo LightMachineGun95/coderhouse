@@ -1,5 +1,6 @@
 @use '_commons' as c;
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Silkscreen&display=swap');
 .contenido{
     background: linear-gradient(map-get(c.$colores,"gradient_1"), map-get(c.$colores,"gradient_2"));
     font-size: 24px;
@@ -14,7 +15,10 @@
     font-family: c.$tipografia_principal;
     font-size: 24px;
 }
-
+.logotipo {
+    font-family: c.$tipografia_secundaria;
+    font-size: 36px;
+}
 .text-center{
     font-family: c.$tipografia_principal;
     font-size: 24px;

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Silkscreen&display=swap");
 .contenido {
   background: linear-gradient(#0BAB64, #3BB78F);
   font-size: 24px;
@@ -16,13 +17,17 @@
   font-size: 24px;
 }
 
+.logotipo {
+  font-family: "Silkscreen", cursive;
+  font-size: 36px;
+  text-align: center;
+}
+
 .text-center {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 24px;
 }
-.logotipo {
-  font-size: 48px;
-}
+
 .mb-3 {
   text-align: center;
   margin-left: 30%;
