@@ -4,7 +4,7 @@
 .contenido{
     background: linear-gradient(map-get(c.$colores,"gradient_1"), map-get(c.$colores,"gradient_2"));
     font-size: 24px;
-    padding: 50px;
+    padding: 25px;
 }
 .navbarbg{
     background-color: map-get(c.$colores,"color_background");

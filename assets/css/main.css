@@ -3,11 +3,11 @@
 .contenido {
   background: linear-gradient(#0BAB64, #3BB78F);
   font-size: 24px;
-  padding: 50px;
+  padding: 25px;
 }
 
 .navbarbg {
-  background-color: #0BAB64;
+  background-color: #0CA360;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 24px;
 }
@@ -20,7 +20,6 @@
 .logotipo {
   font-family: "Silkscreen", cursive;
   font-size: 36px;
-  text-align: center;
 }
 
 .text-center {
@@ -41,4 +40,8 @@
 
 .table h2 {
   text-align: center;
+}
+
+.footer {
+  background-color: #37AE88;
 }/*# sourceMappingURL=main.css.map */
