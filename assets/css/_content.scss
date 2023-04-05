@@ -1,0 +1,38 @@
+@use '_commons' as c;
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Silkscreen&display=swap');
+.contenido{
+    background: linear-gradient(map-get(c.$colores,"gradient_1"), map-get(c.$colores,"gradient_2"));
+    font-size: 24px;
+    padding: 25px;
+}
+.navbarbg{
+    background-color: map-get(c.$colores,"color_background");
+    font-family: c.$tipografia_principal;
+    font-size: 24px;
+}
+.bgcontent{
+    font-family: c.$tipografia_principal;
+    font-size: 24px;
+}
+.logotipo {
+    font-family: c.$tipografia_secundaria;
+    font-size: 36px;
+}
+.text-center{
+    font-family: c.$tipografia_principal;
+    font-size: 24px;
+}
+.mb-3{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 24px;
+}
+.table{
+    text-align: center;
+    font-size: 24px;
+}
+.table h2{
+    text-align: center;
+}
