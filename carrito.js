@@ -18,7 +18,7 @@ for (let i = 0; i < localStorage.length; i++) {
     `
     <div class="col">
         <div class="card w-100">
-            <img src="${sema.img}" class="card-img-top img-thumbnail" alt="...">
+            <img src="${sema.img}" class="card-img-top" alt="...">
             <div class="card-body">
             <h2 class="card-title">${sema.nombre}</h2>
             <p class="card-text">${sema.descripcion}</p>
