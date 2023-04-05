@@ -1,5 +1,0 @@
-@use '_commons' as c;
-
-.footer{
-    background-color: map-get(c.$colores,"color_footer");
-}
