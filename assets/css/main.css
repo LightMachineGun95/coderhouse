@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Silkscreen&display=swap");
+.contenido {
+  background: linear-gradient(#0BAB64, #3BB78F);
+  font-size: 24px;
+  padding: 25px;
+}
+
+.navbarbg {
+  background-color: #0CA360;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 24px;
+}
+
+.bgcontent {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 24px;
+}
+
+.logotipo {
+  font-family: "Silkscreen", cursive;
+  font-size: 36px;
+}
+
+
+
+.mb-3 {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 24px;
+}
+
+.table {
+  text-align: center;
+  font-size: 24px;
+}
+
+.table h2 {
+  text-align: center;
+}
+
+.footer {
+  background-color: #37AE88;
+}/*# sourceMappingURL=main.css.map */
